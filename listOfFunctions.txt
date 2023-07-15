@@ -6,3 +6,9 @@ MongoDB Functions:
 Express App Functions: 
     app.set() - to configure various other settings as well,  which means that the application will use EJS templates to render dynamic views.
     app.listen()
+
+Response Functions:
+    res.send()
+    res.sendFile(path.resolve(__dirname)+'/index.html')
+    res.status()
+    res.download()
