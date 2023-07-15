@@ -2,7 +2,13 @@
 	crossorigin
 	src="https://unpkg.com/react@18/umd/react.development.js"
 ></script>
+<!-- Load ReactDOM (development version) -->
 <script
 	crossorigin
 	src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
 ></script>
+<!-- Load Babel Standalone (minified) -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<!-- Your React app file should be loaded after the dependencies -->
+<script type="text/babel" src="/js/app.js"></script>
