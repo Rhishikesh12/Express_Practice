@@ -9,7 +9,7 @@ app.set("view engine", "ejs");
 // to print views path where we can save dynamic pages
 // console.log(app.get("views"));
 
-app.use("/en", mainRoute);
+app.use(mainRoute);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () =>
