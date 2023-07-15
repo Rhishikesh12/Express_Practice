@@ -1,5 +1,6 @@
 const express = require("express");
 const mainRoute = require("./routes/index");
+const productRoute = require("./routes/products");
 const app = express();
 
 // Using Template Engine
@@ -10,6 +11,7 @@ app.set("view engine", "ejs");
 // console.log(app.get("views"));
 
 app.use(mainRoute);
+app.use(productRoute);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () =>

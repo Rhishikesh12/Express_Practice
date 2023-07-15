@@ -17,3 +17,8 @@ Response Functions:
     res.status()
     res.download()
     res.render() - to render Ejs's views
+
+Middleware : 
+    Route-based Middleware
+    Router-based Middleware
+    Global Middleware
