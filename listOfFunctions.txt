@@ -1,0 +1,8 @@
+MongoDB Functions: 
+    app.get()
+    app.post()
+    app.fetch()
+
+Express App Functions: 
+    app.set() - to configure various other settings as well,  which means that the application will use EJS templates to render dynamic views.
+    app.listen()
